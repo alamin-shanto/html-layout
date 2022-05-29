@@ -110,3 +110,37 @@ footer{
 .cricket{
     width: 100%;
 }
+
+
+
+@media only screen and (max-width:800px) {
+    .parentWrapper{
+        flex-direction: column;
+    }
+    /* For tablets: */
+    .leftSide {
+        width: 100%;
+        padding: 0;
+    }
+.cricket{
+    max-width: 400px;
+}
+    .rightSide {
+        width: 100%;
+    }
+    #about {    
+        display: flex;
+        /* justify-content: center; */
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:500px) {
+
+    /* For mobile phones: */
+    .leftSide, .rightSide {
+        width: 100%;
+    }
+}
+
